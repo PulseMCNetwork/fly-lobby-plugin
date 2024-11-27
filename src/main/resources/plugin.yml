@@ -1,0 +1,13 @@
+name: lobby-flight
+version: '1.0'
+main: br.com.pulsemc.minecraft.Main
+
+commands:
+  superman:
+    description: Ativa/desativa o modo de voo.
+    usage: /superman
+    aliases: [fly, voar, nigger, unfly]
+permissions:
+  superman.use:
+    description: Permite ao jogador usar o comando /superman.
+    default: op

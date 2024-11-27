@@ -9,6 +9,13 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        Bukkit.getConsoleSender().sendMessage(" ");
+        Bukkit.getConsoleSender().sendMessage("███    ███ ██ ██   ██ ███████");
+        Bukkit.getConsoleSender().sendMessage("████  ████ ██ ██  ██  ██     ");
+        Bukkit.getConsoleSender().sendMessage("██ ████ ██ ██ █████   █████  ");
+        Bukkit.getConsoleSender().sendMessage("██  ██  ██ ██ ██  ██  ██     ");
+        Bukkit.getConsoleSender().sendMessage("██      ██ ██ ██   ██ ███████");
+        Bukkit.getConsoleSender().sendMessage(" ");
         Bukkit.getConsoleSender().sendMessage("§a/fly by Mike is active!");
         getCommand("superman").setExecutor(new Superman());
         getServer().getPluginManager().registerEvents(new FlyJoinListener(), this);
